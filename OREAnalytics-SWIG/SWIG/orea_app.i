@@ -90,6 +90,8 @@ public:
     void setCurveConfigsFromFile(const std::string& fileName);
     void setPricingEngine(const std::string& xml);
     void setPricingEngineFromFile(const std::string& fileName);
+    void setScriptLibrary(const std::string& xml);
+    void setScriptLibraryFromFile(const std::string& fileName);
     void setTodaysMarketParams(const std::string& xml);
     void setTodaysMarketParamsFromFile(const std::string& fileName);
     void setPortfolio(const std::string& xml); 
